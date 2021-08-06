@@ -2,7 +2,7 @@
 This is a first project on CS50 Web with JS and Python course. 
 Student is supposed to recreate Google's own search pages.
 
-Specification
+Specification given:
 
 Your website must meet the following requirements.
 
