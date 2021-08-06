@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 800px;
+    min-width: 400px;
+    font-family: arial,sans-serif;
+}
+
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {  
+   /*background-color: gray; used for testing*/
+    padding: 25px 0px;
+    margin-right: 30px;
+    margin-bottom: 15%;
+}
+
+.header .links{
+  float: right;
+  
+}
+
+.logo {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    
+}
+
+.formDiv{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+.formDiv .query input{
+    margin: auto;
+    width: auto;
+   padding: 5px 20px;
+   font-size: 18px;
+   width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 3%;
+    border: 1.5px solid #dfe1e5;
+    /*INSIDE POSITIONS*/
+    padding-left: 10%;
+    background-image: url(../assets/searchicon.png);
+    background-repeat: no-repeat;
+    background-position: 15px 20px;
+
+}
+
+.formDiv .query input:hover{
+    margin: auto;
+    width: auto;
+   font-size: 18px;
+   width: 400px;
+   padding: 5px 20px;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 3%;
+    border: 2px solid #dfe1e5;
+
+    /* inside*/
+    /*INSIDE POSITIONS*/
+    padding-left: 10%;
+    background-image: url(../assets/searchicon.png);
+    background-repeat: no-repeat;
+    background-position: 15px 20px;
+}
+
+.formDiv .btn {
+    margin-top: 30px;
+  width: max-content;
+  position: relative;
+ left: 20%;  
+   
+}
+
+.formDiv .btn input {
+    padding: 16px;
+    margin-left: 10px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border: 1px solid #f8f9fa;
+
+
+}
+
+.formDiv .btn input:hover{
+    padding: 16px;
+    margin-left: 10px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    
+}
+
+.formDiv .btn input:hover{
+    padding: 16px;
+    margin-left: 10px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    
+}.formDiv .btn input:active{
+    padding: 16px;
+    margin-left: 10px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border: 1px solid rgb(170, 170, 170);
+    cursor: pointer;
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0px;
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2 ;
+    border-top: 1px solid #dadce0;
+}
+
+.footer a {
+    color: #70757a;
+}
+.footer .left {
+   
+    float: left;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+.footer .right {
+    float: right;
+    margin-right: 10%;
+    margin-top: 0%;
+}

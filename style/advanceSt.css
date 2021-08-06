@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: arial,sans-serif;
+}
+.header {
+    padding: 25px 40px 0 0;
+    float: right;
+}
+
+.header ul {
+    list-style: none;
+    
+}
+
+.header ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.header ul li a:hover{
+    text-decoration: underline;
+}
+
+.heading{
+    clear: both;
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid #ebebeb ;
+}
+
+.heading h2 {
+    margin: 0 0 0 3%;
+    color: #d93025;
+}
+
+form {
+    margin: 5% 0 0 0 ;
+    width: 100%;
+}
+
+form .find {
+    width: 92%;
+    margin: 0 auto 0 auto;
+}
+
+/*  TITLE ROW                               */
+form .find .title {
+    width: 100%;
+    padding: 40px 5px;
+    color: #333;
+    font-size: 20px;
+}
+
+form .find .title .description {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    opacity: .7;
+}
+/*  First and Second column   */
+form .find .title .col {
+    float: left;
+    width: 25%;
+}
+
+form .find .title .col2 {
+    float: left;
+    width: 25%;
+}
+
+/*  COLUMN IN THE MIDLE */
+form .find .title .colMid {
+    float: left;
+    width: 50%;
+    padding: 40px 10%;
+}
+/*      END OF TITLE ROW                */
+
+/*  ROWS    */
+.row {
+    width: 100%;
+    padding: 40px 10px;
+}
+
+.row .colLeft {
+    /*size of cell and position*/
+    float: left;
+    width: 15%;
+    padding-top: 1%;
+
+    /*txt*/
+    font-size: 16px;
+    color: #333;
+}
+
+.row .colMiddle {
+    /*size of cell and position*/
+    float: left;
+    width: 55%;
+}
+
+.row .colRight {
+    /*size of cell and position*/
+    float: left;
+    width: 30%;
+    padding-top: 1%;
+
+    /*txt*/
+    font-size: 13px;
+    color: #555;
+}
+
+/*  INPUT FIELD */
+form .find input {
+    /*  outside look    */
+    width: 90%;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    text-align: left;
+    padding-left: 2%;
+}
+
+form .find input:focus {
+    /*  outside look    */
+    width: 90%;
+    height: 40px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+/*  FOOTER  */
+.footer {
+    width: 100%;
+    padding: 30px 0px;
+
+    border-top: 1px solid #dadce0;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 3%;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    font-size: 18px;
+}
+
+.row1 {
+    margin: 0 auto 0 auto;
+    width: 92%;
+    margin-top: 5%;
+}
+.row1 .submit {
+    width: 150px;
+    height: 40px;
+    margin-right: 35%;
+    padding-left: 0px;
+    float:right;
+
+    border-radius: 2px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    cursor: default;
+
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+white-space: nowrap;
+
+}
